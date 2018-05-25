@@ -1,0 +1,1 @@
+This is the project of compsci 261P which includes the implementation of four binary search tree, *Standard BST*, *AVL Tree*, *Treap* and *Splay Tree*.
