@@ -1,0 +1,26 @@
+Current test size: 100000
+Current key number size: 10000000
+
+Standard Binary Search Tree
+Insert Time: 181.00000000
+Search Time: 191.00000000
+Delete Time: 33.00000000
+
+
+AVL Tree
+Insert Time: 122.00000000
+Search Time: 36.00000000
+Delete Time: 45.00000000
+
+
+Treap
+Insert Time: 83.00000000
+Search Time: 51.00000000
+Delete Time: 54.00000000
+
+
+Splay Tree
+Insert Time: 271.00000000
+Search Time: 83.00000000
+Delete Time: 96.00000000
+

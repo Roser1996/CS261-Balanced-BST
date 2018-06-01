@@ -10,7 +10,7 @@
 #include "splay.hpp"
 
 #define TESTSIZE 10000
-#define NUMBERSIZE 100000
+#define NUMBERSIZE 10000000
 
 using namespace std;
 
@@ -50,13 +50,19 @@ int main() {
 	vector<int> array(TESTSIZE, 0);
 	vector<int> testArray(TESTSIZE, 0);
 	for(int i = 0; i < array.size(); i++) {
-		array[i] = rand() % NUMBERSIZE + 1;
-		testArray[i] = rand() % NUMBERSIZE + 1;
+		// random case
+		// array[i] = rand() % NUMBERSIZE + 1;
+		// testArray[i] = rand() % NUMBERSIZE + 1;
+
+		// worst case
+		array[i] = i;
+		testArray[i] = rand() % TESTSIZE + 1;
 	}
+
 
 	
 	ofstream file;
-	file.open("../results/test_results_1.txt", ios::out);
+	file.open("../results/test_results_worst_1.txt", ios::out);
 	file << "Current test size: " << TESTSIZE << "\n";
 	file << "Current key number size: " << NUMBERSIZE << "\n";
 

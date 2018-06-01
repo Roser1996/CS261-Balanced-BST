@@ -207,10 +207,6 @@ bool Splay<T>::searchNode(const T &key) {
 	if(tempNode == nullptr)
 		return false;
 	splayTree(root, key);
-	if(key == 5) {
-		std::cout << std::endl;
-		printTree();
-	}
 	return true;
 }
 

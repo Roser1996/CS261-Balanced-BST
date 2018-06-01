@@ -7,7 +7,7 @@
 #include <ctime>
 #include "base.hpp"
 
-#define NUMBERSIZE 100000
+#define NUMBERSIZE 10000000
 
 template<typename T>
 struct heapTreeNode {
